@@ -10,6 +10,7 @@ const Testimonials = ({ testimonials }) => (
           {testimonial.quote}
           <br />
           <cite> – {testimonial.author}</cite>
+          <cite> – {testimonial.location}</cite>
         </div>
       </article>
     ))}
